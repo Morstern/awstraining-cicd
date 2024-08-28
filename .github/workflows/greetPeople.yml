@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Call custom action
         id: custom_action
-        uses: Morstern/hello-world-action@v1
+        uses: Morstern/hello-world-action@v2
         with:
           name: ${{ matrix.people }}
 
