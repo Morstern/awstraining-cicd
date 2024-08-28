@@ -6,7 +6,7 @@ on:
 
 jobs:
   greet_everyone:
-    runs-on: ubuntu/latest
+    runs-on: ubuntu-latest
     # Here we define our iteration
     strategy:
       matrix:
